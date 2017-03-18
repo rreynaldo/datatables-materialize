@@ -1,0 +1,92 @@
+/* Datatables */
+
+.dataTables_wrapper .dataTables_paginate .paginate_button,
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button:focus,
+.dataTables_wrapper .dataTables_paginate .paginate_button:active {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0 10px;
+    line-height: 30px;
+    border-radius: 2px;
+    text-align: center;
+    background: none;
+    border: 0;
+    color: #444!important;
+    box-shadow: none;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:focus,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:active  {
+    background: #ee6e73;
+    border: 0;
+    color: #fff!important;
+    box-shadow: none;
+
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button i {
+    font-size: 2.2rem;
+    vertical-align: middle;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: #444;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
+    color: #999;
+}
+
+
+table.dataTable.no-footer {
+    border-bottom: 0px;
+}
+
+
+.dataTables_filter input {
+    width: 250px;
+    height: 30px;
+}
+
+
+
+.dataTables_wrapper .dataTables_length {
+    float: left;
+    margin-bottom: 15px;
+}
+
+.dataTables_wrapper .select-wrapper {
+    position: relative;
+    width: 40px;
+}
+
+.dataTables_wrapper .dataTables_length .select-wrapper {
+    margin: 0 .5em;
+    display: inline-block;
+    /*width: auto;*/
+}
+
+.dataTables_wrapper .select-wrapper input.select-dropdown {
+    position: relative;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    outline: 0;
+    height: 3rem;
+    line-height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 0 15px;
+    padding: 0;
+    display: block;
+    height: 30px;
+}
+
+.dataTables_wrapper .dataTables_length .select-wrapper input {
+    margin: 0;
+}
+
+ 
